@@ -1,0 +1,13 @@
+#bids_made tr {
+	cursor:pointer;
+}
+
+#bids_made tr:hover {
+	background-color:#f0f1f0!important;	
+}
+
+#bids_made tr:hover td.td-control {
+    background-image:url(../img/icon-detail.png);
+    background-repeat: no-repeat ;
+    background-position:50% 50%; 
+}

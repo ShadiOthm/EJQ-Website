@@ -1,0 +1,182 @@
+/******************************************************************************************************************** HEADER */
+/*header styles*/
+header#mainMetaplaceHeader {
+	height: 72px;
+	background: url(/img/logo.png) no-repeat;
+	padding: 4px 0 0 148px;
+	position: relative;
+	border-bottom: 2px solid #7f7f7f;
+	/*margin-bottom: 1em;*/
+}
+section#metaplaceHeader {
+    width: 120px;
+    float: left;
+    padding: 54px 0px 0px 0px;
+}
+section#metaplaceUserHeader {
+    /*width: 190px;*/
+    float: left;
+    padding: 72px 10px 0 0px;
+    font-size: 0.9em;
+}
+
+#mainMetaplaceHeader h1 {
+    margin: 0px 0px 0px 0px
+    
+}
+#metaplaceHeader h1 a{
+    color: #000;
+    
+}
+#metaplaceHeader p a{
+    color: #000;
+}
+section#metaplaceUserHeader ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #036;
+    
+}
+
+section#metaplaceUserHeader li {
+    float: left;
+}
+
+section#metaplaceUserHeader li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+}
+
+section#metaplaceUserHeader li a:hover {
+    background-color: #111111;
+}
+
+
+section#metaplaceMenuHeader {
+    width: 520px;
+    float: left;
+    padding: 28px 0px 0px 32px;
+    font-size: 0.8em;
+    font-family: "roboto-regular",serif;
+}
+
+
+section#metaplaceMenuHeader ul {
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    
+}
+
+section#metaplaceMenuHeader li {
+    float: left;
+}
+
+section#metaplaceMenuHeader li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+}
+
+section#metaplaceMenuHeader li a:hover {
+    background-color: #ddd;
+}
+
+
+
+
+header#mainMarketplacesHeader {
+	height: 72px;
+	background: url(/img/mini-logo-platform.png) no-repeat;
+	padding: 4px 0 0 82px;
+	position: relative;
+	border-bottom: 2px solid #7f7f7f;
+        background-color: #e0ebeb;
+	/*margin-bottom: 1em;*/
+}
+section#marketplacesHeader {
+    width: 264px;
+    float: left;
+    padding: 10px 0px 0px 0px;
+}
+section#marketplacesUserHeader {
+    /*width: 190px;*/
+    float: left;
+    padding: 22px 10px 0 0px;
+    font-size: 0.9em;
+}
+
+
+
+section#marketplacesUserHeader ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #036;
+    
+}
+
+section#marketplacesUserHeader li {
+    float: left;
+}
+
+section#marketplacesUserHeader li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+}
+
+section#marketplacesUserHeader li a:hover {
+    background-color: #111111;
+}
+
+section#marketplacesLangHeader {
+    width: 138px;
+    float: left;
+    padding: 22px 0px 0px 5px;
+    font-size: 0.8em;
+    font-family: "roboto-regular",serif;
+}
+
+
+section#marketplacesLangHeader ul {
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    
+}
+
+section#marketplacesLangHeader li {
+    float: left;
+}
+
+section#marketplacesLangHeader li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+}
+
+section#marketplacesLangHeader li a:hover {
+    background-color: #ddd;
+}
+

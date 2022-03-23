@@ -1,0 +1,32 @@
+<?php
+
+    if(isset($_SERVER['SERVER_NAME'])){
+        $env = 'development';
+        switch($_SERVER['SERVER_NAME']){
+            case 'local.easyjobquote.com':
+                $env = "development";
+                break;
+            case 'sandbox.easyjobquote.com':
+                $env = 'sandbox';
+                break;
+            case 'www.easyjobquote.com':
+                $env = 'production';
+                break;
+        }
+    }
+    else {
+        $env = 'development';
+    }
+
+    $config = array(
+        'Settings' => array(
+            'Global' => array('Environment' => $env),
+        )
+    );
+
+    $config = array(
+        'Settings' => array(
+            'Global' => array('Environment' => $env),
+        )
+    );
+    

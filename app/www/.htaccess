@@ -1,0 +1,10 @@
+#AuthType Basic
+#AuthName "Metaplace"
+#AuthUserFile /vhosts/metaplace.com.br/www/.htpasswd
+#Require valid-user
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteRule ^ index.php [L]
+</IfModule>

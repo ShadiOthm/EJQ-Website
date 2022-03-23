@@ -1,0 +1,1467 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/ConsumersController.php:34
+#: Controller/CuratorsController.php:256
+#: Controller/ProvidersController.php:405
+#: Controller/UsersController.php:508
+msgid "Você não está autorizado a acessar esse perfil."
+msgstr ""
+
+#: Controller/ConsumersController.php:68
+msgid "A solicitação foi realizada, aguarde a confirmação."
+msgstr ""
+
+#: Controller/ConsumersController.php:70
+msgid "A solicitação foi realizada, porém não há fornecedores disponíveis no momento."
+msgstr ""
+
+#: Controller/ConsumersController.php:75
+msgid "Não foi possível salvar a solicitação."
+msgstr ""
+
+#: Controller/ConsumersController.php:80
+#: Controller/MetaMarketplacesController.php:166
+msgid "Não foi possível alterar o MetaMarketplace. Favor tentar novamente."
+msgstr ""
+
+#: Controller/ConsumersController.php:84
+msgid "Essa ação não pode ser executada. Algo deveria ter sido postado"
+msgstr ""
+
+#: Controller/ConsumersController.php:187
+msgid "Por favor, informe pelo menos um tipo de serviço."
+msgstr ""
+
+#: Controller/CuratorsController.php:34
+msgid "Você já está registrado como Curador."
+msgstr ""
+
+#: Controller/CuratorsController.php:50
+#: Controller/MarketplacesController.php:102;128
+msgid "Sua identificação foi cadastrada. Obrigado."
+msgstr ""
+
+#: Controller/CuratorsController.php:53;181
+msgid "Não foi possível criar o novo Curator"
+msgstr ""
+
+#: Controller/CuratorsController.php:178
+#: Controller/MarketplacesController.php:419;436
+msgid "Cadastro feito com sucesso. Por favor confira email enviado para criar uma senha e ativar a conta."
+msgstr ""
+
+#: Controller/CuratorsController.php:190
+#: Controller/MarketplacesController.php:448
+msgid "Já existe um usuário registrado com esse email. Por favor, faça seu login."
+msgstr ""
+
+#: Controller/CuratorsController.php:204
+#: Controller/MarketplacesController.php:504;534
+#: Controller/UsersController.php:80
+msgid "Não foi possível autenticar seu login. Favor tentar novamente."
+msgstr ""
+
+#: Controller/CuratorsController.php:224
+msgid "Por favor, informe o número do seu CPF ou CNPJ para poder criar marketplaces."
+msgstr ""
+
+#: Controller/CuratorsController.php:227
+msgid "Não foi possível criar o novo Curator. "
+msgstr ""
+
+#: Controller/DemandsController.php:20;41;69;95;116
+msgid "Você não está autorizado a realizar essa ação."
+msgstr ""
+
+#: Controller/DemandsController.php:30
+msgid "Demanda aceita"
+msgstr ""
+
+#: Controller/DemandsController.php:51
+msgid "Demanda cancelada"
+msgstr ""
+
+#: Controller/DemandsController.php:64
+msgid "Não foi informada qual demanda deve ser avaliada"
+msgstr ""
+
+#: Controller/DemandsController.php:76
+msgid "Não foi informada a avaliação a ser registrada."
+msgstr ""
+
+#: Controller/DemandsController.php:82
+msgid "Avaliação registrada"
+msgstr ""
+
+#: Controller/DemandsController.php:105
+msgid "Demanda contratada"
+msgstr ""
+
+#: Controller/DemandsController.php:127
+msgid "Prestação de serviço registrada"
+msgstr ""
+
+#: Controller/DemandsController.php:148
+msgid "Essa demanda não está especificada!!!!!"
+msgstr ""
+
+#: Controller/GroupsController.php:22
+msgid "O Grupo foi adicionado"
+msgstr ""
+
+#: Controller/GroupsController.php:25
+msgid "Não foi possível adicionar o Grupo. Favor tentar novamente"
+msgstr ""
+
+#: Controller/GroupsController.php:36
+msgid "O Grupo foi alterado"
+msgstr ""
+
+#: Controller/GroupsController.php:39
+msgid "Não foi possível alterar o Grupo. Favor tentar novamente."
+msgstr ""
+
+#: Controller/GroupsController.php:53
+msgid "O Grupo foi excluído"
+msgstr ""
+
+#: Controller/GroupsController.php:55
+msgid "Não foi possível excluir o Grupo. Favor tentar novamente."
+msgstr ""
+
+#: Controller/MarketplacesController.php:162
+msgid "Você já é fornecedor nesse mercado"
+msgstr ""
+
+#: Controller/MarketplacesController.php:189
+msgid "Você já é consumidor nesse mercado"
+msgstr ""
+
+#: Controller/MarketplacesController.php:223
+msgid "Esse marketplace não está especificado!!!!!"
+msgstr ""
+
+#: Controller/MarketplacesController.php:422;552
+msgid "Não foi possível criar o novo Consumer. "
+msgstr ""
+
+#: Controller/MarketplacesController.php:439;568
+msgid "Não foi possível criar o novo Provider. "
+msgstr ""
+
+#: Controller/MarketplacesController.php:549
+msgid "Por favor, informe o número do seu CPF ou CNPJ para poder fazer pedidos."
+msgstr ""
+
+#: Controller/MarketplacesController.php:565
+msgid "Por favor, informe o número do seu CPF ou CNPJ para poder oferecer serviços."
+msgstr ""
+
+#: Controller/MetaConsumersController.php:30;66;90;109
+#: Controller/MetaMarketplacesController.php:66;89;111;146
+#: Controller/MetaProvidersController.php:30;67;92;109
+#: Controller/ServiceTypesController.php:33;71;108
+#: Controller/UsersController.php:110
+msgid "Você não está autorizado a acessar essa página."
+msgstr ""
+
+#: Controller/MetaConsumersController.php:40
+msgid "O MetaConsumer foi adicionado"
+msgstr ""
+
+#: Controller/MetaConsumersController.php:43
+msgid "Não foi possível adicionar o MetaConsumer. Favor tentar novamente"
+msgstr ""
+
+#: Controller/MetaConsumersController.php:71
+msgid "O MetaConsumer foi excluído"
+msgstr ""
+
+#: Controller/MetaConsumersController.php:73
+msgid "Não foi possível excluir o MetaConsumer. Favor tentar novamente."
+msgstr ""
+
+#: Controller/MetaConsumersController.php:115
+msgid "O MetaConsumer foi alterado"
+msgstr ""
+
+#: Controller/MetaConsumersController.php:118
+msgid "Não foi possível alterar o MetaConsumer. Favor tentar novamente."
+msgstr ""
+
+#: Controller/MetaConsumersController.php:148
+#: Controller/MetaMarketplacesController.php:197
+#: Controller/MetaProvidersController.php:169
+#: Controller/ServiceTypesController.php:127
+#: Controller/UsersController.php:496
+msgid "Você não está autorizado a acessar essa função."
+msgstr ""
+
+#: Controller/MetaMarketplacesController.php:31
+msgid "O usuário precisa ser um curador para criar metaMarketplaces. Por favor registre-se ou faça o login abaixo."
+msgstr ""
+
+#: Controller/MetaMarketplacesController.php:44
+msgid "O MetaMarketplace foi adicionado"
+msgstr ""
+
+#: Controller/MetaMarketplacesController.php:47
+msgid "Não foi possível adicionar o MetaMarketplace. Favor tentar novamente"
+msgstr ""
+
+#: Controller/MetaMarketplacesController.php:72
+msgid "O MetaMarketplace foi excluído"
+msgstr ""
+
+#: Controller/MetaMarketplacesController.php:74
+msgid "Não foi possível excluir o MetaMarketplace. Favor tentar novamente."
+msgstr ""
+
+#: Controller/MetaMarketplacesController.php:117
+msgid "O Marketplace foi publicado"
+msgstr ""
+
+#: Controller/MetaMarketplacesController.php:120
+msgid "Não foi possível adicionar o Marketplace. Favor tentar novamente"
+msgstr ""
+
+#: Controller/MetaMarketplacesController.php:163
+msgid "O MetaMarketplace foi alterado"
+msgstr ""
+
+#: Controller/MetaProvidersController.php:42
+msgid "O MetaProvider foi adicionado"
+msgstr ""
+
+#: Controller/MetaProvidersController.php:45
+msgid "Não foi possível adicionar o MetaProvider. Favor tentar novamente"
+msgstr ""
+
+#: Controller/MetaProvidersController.php:72
+msgid "O MetaProvider foi excluído"
+msgstr ""
+
+#: Controller/MetaProvidersController.php:74
+msgid "Não foi possível excluir o MetaProvider. Favor tentar novamente."
+msgstr ""
+
+#: Controller/MetaProvidersController.php:115
+msgid "O MetaProvider foi alterado"
+msgstr ""
+
+#: Controller/MetaProvidersController.php:118
+msgid "Não foi possível alterar o MetaProvider. Favor tentar novamente."
+msgstr ""
+
+#: Controller/PaymentMethodsController.php:23
+msgid "O Modo de Pagamento foi adicionado"
+msgstr ""
+
+#: Controller/PaymentMethodsController.php:26
+msgid "Não foi possível adicionar o Modo de Pagamento. Favor tentar novamente"
+msgstr ""
+
+#: Controller/PaymentMethodsController.php:40
+msgid "O Modo de Pagamento foi alterado"
+msgstr ""
+
+#: Controller/PaymentMethodsController.php:43
+msgid "Não foi possível alterar o Modo de Pagamento. Favor tentar novamente."
+msgstr ""
+
+#: Controller/PaymentMethodsController.php:57
+msgid "O Modo de Pagamento foi excluído"
+msgstr ""
+
+#: Controller/PaymentMethodsController.php:59
+msgid "Não foi possível excluir o Modo de Pagamento. Favor tentar novamente."
+msgstr ""
+
+#: Controller/ProvidersController.php:41
+msgid "Disponibilidade alterada com sucesso."
+msgstr ""
+
+#: Controller/ProvidersController.php:73
+msgid "Os serviços foram alterados"
+msgstr ""
+
+#: Controller/ProvidersController.php:76
+msgid "Não foi possível alterar os serviços do provider. Favor tentar novamente."
+msgstr ""
+
+#: Controller/ProvidersController.php:97
+msgid "Status alterado para online."
+msgstr ""
+
+#: Controller/ProvidersController.php:100
+msgid "Status alterado para offline."
+msgstr ""
+
+#: Controller/ProvidersController.php:102
+msgid "Não foi possível alterar o status. Favor tentar novamente."
+msgstr ""
+
+#: Controller/ProvidersController.php:246
+msgid "Domingo"
+msgstr ""
+
+#: Controller/ProvidersController.php:247
+msgid "Segunda-feira"
+msgstr ""
+
+#: Controller/ProvidersController.php:248
+msgid "Terça-feira"
+msgstr ""
+
+#: Controller/ProvidersController.php:249
+msgid "Quarta-feira"
+msgstr ""
+
+#: Controller/ProvidersController.php:250
+msgid "Quinta-feira"
+msgstr ""
+
+#: Controller/ProvidersController.php:251
+msgid "Sexta-feira"
+msgstr ""
+
+#: Controller/ProvidersController.php:252
+msgid "Sábado"
+msgstr ""
+
+#: Controller/ServiceTypesController.php:47
+msgid "O ServiceType foi adicionado"
+msgstr ""
+
+#: Controller/ServiceTypesController.php:50
+msgid "Não foi possível adicionar o ServiceType. Favor tentar novamente"
+msgstr ""
+
+#: Controller/ServiceTypesController.php:84
+msgid "O ServiceType foi alterado"
+msgstr ""
+
+#: Controller/ServiceTypesController.php:87
+msgid "Não foi possível alterar o ServiceType. Favor tentar novamente."
+msgstr ""
+
+#: Controller/ServiceTypesController.php:113
+msgid "O ServiceType foi excluído"
+msgstr ""
+
+#: Controller/ServiceTypesController.php:116
+msgid "Não foi possível excluir o ServiceType. Favor tentar novamente."
+msgstr ""
+
+#: Controller/UsersController.php:39
+msgid "O Usuário foi adicionado"
+msgstr ""
+
+#: Controller/UsersController.php:42
+msgid "Não foi possível adicionar o Usuário. Favor tentar novamente"
+msgstr ""
+
+#: Controller/UsersController.php:67
+msgid "O Usuário foi excluído"
+msgstr ""
+
+#: Controller/UsersController.php:69
+msgid "Não foi possível excluir o Usuário. Favor tentar novamente."
+msgstr ""
+
+#: Controller/UsersController.php:102
+msgid "Não existe um usuário com esse id."
+msgstr ""
+
+#: Controller/UsersController.php:372
+msgid "Não foi possível efetuar a solicitação."
+msgstr ""
+
+#: Controller/UsersController.php:423
+msgid "Não foi possível autenticar seu acesso.<br/> Favor tentar novamente."
+msgstr ""
+
+#: Controller/UsersController.php:428
+msgid "Não foi possível confirmar seu cadastro. Favor tentar novamente ou entrar em contato com o suporte."
+msgstr ""
+
+#: Controller/UsersController.php:467
+msgid "O Usuário foi alterado"
+msgstr ""
+
+#: Controller/UsersController.php:470
+msgid "Não foi possível alterar o Usuário. Favor tentar novamente."
+msgstr ""
+
+#: Model/AppModel.php:59
+msgid "Valor inválido para o id do objeto."
+msgstr ""
+
+#: Model/AppModel.php:63
+msgid "Valor inválido para o id do usuário."
+msgstr ""
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:80
+msgid "Plugin to process"
+msgstr ""
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:83
+msgid "Better manage, and easily synchronize you application's ACO tree"
+msgstr ""
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:88
+msgid "Add new ACOs for new controllers and actions. Does not remove nodes from the ACO table."
+msgstr ""
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:93
+msgid "Perform a full sync on the ACO table.Will create new ACOs or missing controllers and actions.Will also remove orphaned entries that no longer have a matching controller/action"
+msgstr ""
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:97
+msgid "Verify the tree structure of either your Aco or Aro Trees"
+msgstr ""
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:102
+msgid "The type of tree to verify"
+msgstr ""
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:108
+msgid "Recover a corrupted Tree"
+msgstr ""
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:113
+msgid "The type of tree to recover"
+msgstr ""
+
+#: Plugin/AclExtras/Lib/AclExtras.php:123
+msgid "<error>Plugin %s not found or not activated</error>"
+msgstr ""
+
+#: Plugin/AclExtras/Lib/AclExtras.php:136
+msgid "<success>Aco Update Complete</success>"
+msgstr ""
+
+#: Plugin/AclExtras/Lib/AclExtras.php:181
+msgid "Deleted %s and all children"
+msgstr ""
+
+#: Plugin/AclExtras/Lib/AclExtras.php:222
+msgid "Created Aco node: <success>%s</success>"
+msgstr ""
+
+#: Plugin/AclExtras/Lib/AclExtras.php:275
+msgid "Unable to get methods for \"%s\""
+msgstr ""
+
+#: Plugin/AclExtras/Lib/AclExtras.php:296
+msgid "Deleted Aco node: <warning>%s</warning>"
+msgstr ""
+
+#: Plugin/AclExtras/Lib/AclExtras.php:315
+msgid "<success>Tree is valid and strong</success>"
+msgstr ""
+
+#: Plugin/AclExtras/Lib/AclExtras.php:333
+msgid "Tree has been recovered, or tree did not need recovery."
+msgstr ""
+
+#: Plugin/AclExtras/Lib/AclExtras.php:335
+msgid "<error>Tree recovery failed.</error>"
+msgstr ""
+
+#: View/Curators/inform_identification.ctp:2
+msgid "Para poder criar marketplaces, por favor informe seu CPF ou CNPJ."
+msgstr ""
+
+#: View/Curators/inform_identification.ctp:11
+#: View/Curators/register.ctp:16
+#: View/Marketplaces/inform_consumer_identification.ctp:16
+#: View/Marketplaces/inform_provider_identification.ctp:16
+#: View/Marketplaces/register_consumer.ctp:20
+#: View/Marketplaces/register_provider.ctp:23
+msgid "cnpj / cpf"
+msgstr ""
+
+#: View/Curators/inform_identification.ctp:15
+#: View/Groups/create.ctp:21
+#: View/Groups/update.ctp:22
+#: View/Marketplaces/inform_consumer_identification.ctp:20
+#: View/Marketplaces/inform_provider_identification.ctp:20
+#: View/MetaConsumers/create.ctp:13
+#: View/MetaConsumers/update.ctp:12
+#: View/MetaMarketplaces/create.ctp:16
+#: View/MetaMarketplaces/update.ctp:45
+#: View/MetaProviders/create.ctp:13
+#: View/MetaProviders/update.ctp:12
+#: View/PaymentMethods/create.ctp:11
+#: View/PaymentMethods/update.ctp:15
+#: View/ServiceTypes/create.ctp:34
+#: View/ServiceTypes/update.ctp:34
+msgid "Confirmar"
+msgstr ""
+
+#: View/Curators/login.ctp:1
+msgid "Acesso para curadores"
+msgstr ""
+
+#: View/Curators/login.ctp:6
+#: View/Marketplaces/consumer_login.ctp:8
+#: View/Marketplaces/provider_login.ctp:8
+msgid "informe seu email"
+msgstr ""
+
+#: View/Curators/login.ctp:7
+#: View/Marketplaces/consumer_login.ctp:9
+#: View/Marketplaces/provider_login.ctp:9
+msgid "informe sua senha"
+msgstr ""
+
+#: View/Curators/login.ctp:12
+#: View/Layouts/default.ctp:76
+#: View/Layouts/marketplaces.ctp:81
+#: View/Layouts/metaplace.ctp:81
+msgid "Entrar"
+msgstr ""
+
+#: View/Curators/login.ctp:16
+#: View/Marketplaces/consumer_login.ctp:18
+#: View/Marketplaces/provider_login.ctp:18
+msgid "Esqueceu sua senha?"
+msgstr ""
+
+#: View/Curators/register.ctp:3
+msgid "Cadastre-se para poder criar marketplaces."
+msgstr ""
+
+#: View/Curators/register.ctp:11
+#: View/Marketplaces/register_consumer.ctp:15
+#: View/Marketplaces/register_provider.ctp:18
+msgid "seu nome"
+msgstr ""
+
+#: View/Curators/register.ctp:12
+#: View/Marketplaces/register_consumer.ctp:16
+#: View/Marketplaces/register_provider.ctp:19
+msgid "seu email"
+msgstr ""
+
+#: View/Curators/register.ctp:18
+#: View/Marketplaces/register_consumer.ctp:22
+#: View/Marketplaces/register_provider.ctp:25
+msgid "Solicitar Cadastro"
+msgstr ""
+
+#: View/Elements/back_to_provider_profile.ctp:2
+msgid "Voltar para meu perfil em %s"
+msgstr ""
+
+#: View/Elements/marketplace_h1_logo.ctp:11
+#: View/Elements/marketplaces_main_content_menu.ctp:36
+#: View/Main/marketplaces.ctp:25
+msgid "logo atual"
+msgstr ""
+
+#: View/Elements/marketplace_h1_logo.ctp:22;27
+msgid "Ir para a página do marketplace"
+msgstr ""
+
+#: View/Elements/marketplaces_main_content_menu.ctp:2
+#: View/Users/profile.ctp:2
+msgid "Ir para:"
+msgstr ""
+
+#: View/Elements/marketplaces_main_content_menu.ctp:7
+#: View/Users/profile.ctp:7
+msgid "Marketplaces Publicados"
+msgstr ""
+
+#: View/Elements/marketplaces_main_content_menu.ctp:9
+#: View/Users/profile.ctp:9
+msgid "Ir para a página principal dos Marketplaces"
+msgstr ""
+
+#: View/Elements/marketplaces_main_content_menu.ctp:19
+#: View/Elements/user/profile_curator_meta_marketplaces.ctp:3
+#: View/Users/profile.ctp:19
+msgid "MetaMarketplaces"
+msgstr ""
+
+#: View/Elements/marketplaces_main_content_menu.ctp:21
+#: View/Users/profile.ctp:21
+msgid "Ir para a página principal dos MetaMarketplaces"
+msgstr ""
+
+#: View/Elements/marketplaces_main_content_menu.ctp:43
+#: View/Main/marketplaces.ctp:32;37
+msgid "saiba mais"
+msgstr ""
+
+#: View/Elements/pagination.ctp:10;17;29
+msgid "Exibindo {:start} - {:end} de {:count}"
+msgstr ""
+
+#: View/Elements/consumer/profile_ask_for_services.ctp:3
+msgid "Solicitar novos serviços    "
+msgstr ""
+
+#: View/Elements/consumer/profile_ask_for_services.ctp:13
+msgid "(requer agendamento)"
+msgstr ""
+
+#: View/Elements/consumer/profile_ask_for_services.ctp:19
+msgid "Que serviços quer contratar?"
+msgstr ""
+
+#: View/Elements/consumer/profile_ask_for_services.ctp:28
+msgid "agendamento"
+msgstr ""
+
+#: View/Elements/consumer/profile_ask_for_services.ctp:28
+msgid "DD-MM-AAAA"
+msgstr ""
+
+#: View/Elements/consumer/profile_ask_for_services.ctp:31
+msgid "Solicitar"
+msgstr ""
+
+#: View/Elements/consumer/profile_demands_to_evaluate.ctp:6
+msgid "Você tem as seguintes demanda(s) para avaliar:"
+msgstr ""
+
+#: View/Elements/consumer/profile_demands_to_evaluate.ctp:9
+#: View/Elements/consumer/profile_open_demands.ctp:9
+#: View/Elements/provider/profile_assigned_demands.ctp:9
+#: View/Elements/provider/profile_hired_demands.ctp:9
+#: View/Elements/provider/profile_service_types.ctp:9
+msgid "Tipo de Serviço:"
+msgstr ""
+
+#: View/Elements/consumer/profile_demands_to_evaluate.ctp:10
+#: View/Elements/consumer/profile_open_demands.ctp:12
+msgid "Fornecido por"
+msgstr ""
+
+#: View/Elements/consumer/profile_demands_to_evaluate.ctp:11
+#: View/Elements/provider/profile_assigned_demands.ctp:11
+msgid "Data"
+msgstr ""
+
+#: View/Elements/consumer/profile_demands_to_evaluate.ctp:12
+msgid "Sua Avaliação"
+msgstr ""
+
+#: View/Elements/consumer/profile_evaluate_demand.ctp:7
+msgid "Dar nota %d em uma escala de %d a %d"
+msgstr ""
+
+#: View/Elements/consumer/profile_header.ctp:3
+#: View/Elements/provider/profile_header.ctp:3
+msgid "Bem Vindo, %s!"
+msgstr ""
+
+#: View/Elements/consumer/profile_open_demand_status.ctp:3
+msgid "Os serviços abaixo, solicitados em %s, podem ser fornecidos por %s"
+msgstr ""
+
+#: View/Elements/consumer/profile_open_demand_status.ctp:5
+msgid "Os serviços abaixo, contratados em %s, serão fornecidos por %s"
+msgstr ""
+
+#: View/Elements/consumer/profile_open_demand_status.ctp:7
+msgid "Serviços solicitados em %s:"
+msgstr ""
+
+#: View/Elements/consumer/profile_open_demands.ctp:6
+#: View/Elements/user/profile_consumer_marketplaces.ctp:9
+#: View/Elements/user/profile_provider_marketplaces.ctp:9
+msgid "Demandas em aberto"
+msgstr ""
+
+#: View/Elements/consumer/profile_open_demands.ctp:10
+msgid "Data da solicitação"
+msgstr ""
+
+#: View/Elements/consumer/profile_open_demands.ctp:11
+msgid "Data da Contratação"
+msgstr ""
+
+#: View/Elements/consumer/profile_open_demands.ctp:13
+#: View/Elements/provider/profile_service_types.ctp:11
+msgid "Status"
+msgstr ""
+
+#: View/Elements/consumer/profile_open_demands.ctp:40
+#: View/Elements/provider/profile_assigned_demands.ctp:30
+#: View/Elements/provider/profile_hired_demands.ctp:30
+msgid " para %s"
+msgstr ""
+
+#: View/Elements/consumer/profile_open_demands.ctp:58;67
+msgid "N/D"
+msgstr ""
+
+#: View/Elements/consumer/profile_open_demands.ctp:75
+msgid "Aceita"
+msgstr ""
+
+#: View/Elements/consumer/profile_open_demands.ctp:78
+msgid "Atribuída"
+msgstr ""
+
+#: View/Elements/consumer/profile_open_demands.ctp:81
+msgid "Contratada"
+msgstr ""
+
+#: View/Elements/consumer/profile_open_demands.ctp:84
+msgid "Em aberto"
+msgstr ""
+
+#: View/Elements/demand/cancel.ctp:6
+msgid "Cancelar solicitação"
+msgstr ""
+
+#: View/Elements/demand/contract.ctp:6
+msgid "Contratar serviços"
+msgstr ""
+
+#: View/Elements/provider/profile_assigned_demands.ctp:6
+msgid "Serviço(s) solicitado(s)"
+msgstr ""
+
+#: View/Elements/provider/profile_assigned_demands.ctp:10
+msgid "Solicitado por"
+msgstr ""
+
+#: View/Elements/provider/profile_assigned_demands.ctp:58
+msgid "Aceitar solicitação de serviços"
+msgstr ""
+
+#: View/Elements/provider/profile_hired_demands.ctp:6
+msgid "Serviços contratados"
+msgstr ""
+
+#: View/Elements/provider/profile_hired_demands.ctp:10
+msgid "Contratado por"
+msgstr ""
+
+#: View/Elements/provider/profile_hired_demands.ctp:11
+msgid "Data Contratação"
+msgstr ""
+
+#: View/Elements/provider/profile_hired_demands.ctp:87
+msgid "Concluir prestação de serviços"
+msgstr ""
+
+#: View/Elements/provider/profile_hired_demands.ctp:97
+msgid "Demanda agendada para %s"
+msgstr ""
+
+#: View/Elements/provider/profile_service_types.ctp:6
+msgid "Tipos de serviços oferecidos"
+msgstr ""
+
+#: View/Elements/provider/profile_service_types.ctp:10
+msgid "Opções"
+msgstr ""
+
+#: View/Elements/provider/profile_service_types.ctp:26
+msgid "Informar Disponibilidade por dias da semana"
+msgstr ""
+
+#: View/Elements/provider/profile_service_types.ctp:29
+msgid "Alterar Disponibilidade por dias da semana"
+msgstr ""
+
+#: View/Elements/provider/profile_service_types.ctp:46
+msgid "Mudar status para offline"
+msgstr ""
+
+#: View/Elements/provider/profile_service_types.ctp:49
+msgid "Mudar status para online"
+msgstr ""
+
+#: View/Elements/provider/profile_service_types.ctp:80
+msgid "Alterar Oferta de Serviços"
+msgstr ""
+
+#: View/Elements/provider/profile_service_types.ctp:87
+#: View/Providers/update_service_types.ctp:12
+msgid "Que serviços quer fornecer?"
+msgstr ""
+
+#: View/Elements/provider/profile_service_types.ctp:88
+#: View/Providers/update_service_types.ctp:13
+#: View/Providers/update_weekdays.ctp:15
+msgid "Atualizar"
+msgstr ""
+
+#: View/Elements/provider/profile_service_types.ctp:89
+#: View/Groups/create.ctp:3
+#: View/Groups/update.ctp:3
+#: View/MetaConsumers/create.ctp:3
+#: View/MetaConsumers/update.ctp:3
+#: View/MetaMarketplaces/create.ctp:3
+#: View/MetaProviders/create.ctp:3
+#: View/MetaProviders/update.ctp:3
+#: View/PaymentMethods/create.ctp:3
+#: View/PaymentMethods/update.ctp:6
+#: View/Users/create.ctp:3
+#: View/Users/update.ctp:6
+msgid "Cancelar"
+msgstr ""
+
+#: View/Elements/user/profile_consumer_marketplaces.ctp:5
+msgid "Marketplaces como Consumer"
+msgstr ""
+
+#: View/Elements/user/profile_consumer_marketplaces.ctp:8
+#: View/Elements/user/profile_curator_marketplaces.ctp:8
+#: View/Elements/user/profile_curator_meta_marketplaces.ctp:15
+#: View/Elements/user/profile_provider_marketplaces.ctp:8
+#: View/Groups/create.ctp:8
+#: View/Groups/index.ctp:17
+#: View/Groups/update.ctp:9
+#: View/Main/metamarketplaces.ctp:14
+#: View/MetaConsumers/detail.ctp:10
+#: View/MetaConsumers/index.ctp:8
+#: View/MetaConsumers/update.ctp:9
+#: View/MetaMarketplaces/create.ctp:9
+#: View/MetaMarketplaces/detail.ctp:93;135;185
+#: View/MetaMarketplaces/index.ctp:14
+#: View/MetaProviders/create.ctp:9
+#: View/MetaProviders/detail.ctp:10
+#: View/MetaProviders/index.ctp:8
+#: View/MetaProviders/update.ctp:9
+#: View/PaymentMethods/create.ctp:8
+#: View/PaymentMethods/index.ctp:14
+#: View/PaymentMethods/update.ctp:12
+#: View/ServiceTypes/create.ctp:8
+#: View/ServiceTypes/index.ctp:14
+#: View/ServiceTypes/update.ctp:9
+#: View/Users/index.ctp:14
+msgid "Nome:"
+msgstr ""
+
+#: View/Elements/user/profile_consumer_marketplaces.ctp:10
+#: View/Elements/user/profile_provider_marketplaces.ctp:10
+msgid "Demandas finalizadas"
+msgstr ""
+
+#: View/Elements/user/profile_consumer_marketplaces.ctp:21
+#: View/Elements/user/profile_curator_marketplaces.ctp:22
+#: View/Elements/user/profile_curator_meta_marketplaces.ctp:27
+#: View/Elements/user/profile_provider_marketplaces.ctp:21
+#: View/Main/metamarketplaces.ctp:26
+msgid "Ir para a página do MetaMarketplace"
+msgstr ""
+
+#: View/Elements/user/profile_consumer_marketplaces.ctp:24
+#: View/Elements/user/profile_provider_marketplaces.ctp:24
+#: View/Main/marketplaces.ctp:43
+msgid "Ir para meu perfil neste marketplace"
+msgstr ""
+
+#: View/Elements/user/profile_create_meta_marketplace.ctp:5
+msgid "Criar um Marketplace"
+msgstr ""
+
+#: View/Elements/user/profile_curator_marketplaces.ctp:5
+msgid "Marketplaces publicados"
+msgstr ""
+
+#: View/Elements/user/profile_curator_marketplaces.ctp:9
+msgid "Demandas"
+msgstr ""
+
+#: View/Elements/user/profile_curator_marketplaces.ctp:10
+msgid "Providers"
+msgstr ""
+
+#: View/Elements/user/profile_curator_marketplaces.ctp:11
+msgid "Consumers"
+msgstr ""
+
+#: View/Elements/user/profile_curator_meta_marketplaces.ctp:7
+msgid "Esse usuário não tem MetaMarketplaces."
+msgstr ""
+
+#: View/Elements/user/profile_curator_meta_marketplaces.ctp:31
+#: View/Main/metamarketplaces.ctp:30
+msgid "MetaMarketplace publicado"
+msgstr ""
+
+#: View/Elements/user/profile_curator_meta_marketplaces.ctp:42
+#: View/Groups/index.ctp:35
+#: View/Main/metamarketplaces.ctp:41
+#: View/MetaConsumers/index.ctp:28
+#: View/MetaMarketplaces/detail.ctp:110;152;202
+#: View/MetaMarketplaces/index.ctp:32
+#: View/MetaProviders/index.ctp:28
+#: View/PaymentMethods/index.ctp:30
+#: View/ServiceTypes/index.ctp:31
+#: View/Users/index.ctp:32
+msgid "Alterar"
+msgstr ""
+
+#: View/Elements/user/profile_curator_meta_marketplaces.ctp:45
+#: View/Groups/index.ctp:38
+#: View/Main/metamarketplaces.ctp:44
+#: View/MetaConsumers/index.ctp:31
+#: View/MetaMarketplaces/detail.ctp:113;155;205
+#: View/MetaMarketplaces/index.ctp:35
+#: View/MetaProviders/index.ctp:31
+#: View/PaymentMethods/index.ctp:33
+#: View/ServiceTypes/index.ctp:34
+#: View/Users/index.ctp:35
+msgid "Excluir"
+msgstr ""
+
+#: View/Elements/user/profile_curator_meta_marketplaces.ctp:45
+#: View/Main/metamarketplaces.ctp:44
+msgid "Tem certeza que deseja excluir o MetaMarketplace %s?"
+msgstr ""
+
+#: View/Elements/user/profile_provider_marketplaces.ctp:5
+msgid "Marketplaces como Provider"
+msgstr ""
+
+#: View/Elements/user/profile_register_curator.ctp:5
+msgid "Registrar-me como Curador"
+msgstr ""
+
+#: View/Groups/create.ctp:9
+#: View/Groups/index.ctp:18
+#: View/Groups/update.ctp:10
+#: View/MetaConsumers/index.ctp:9
+#: View/MetaProviders/index.ctp:9
+#: View/Users/index.ctp:15
+msgid "Alias:"
+msgstr ""
+
+#: View/Groups/index.ctp:1
+msgid "Grupos"
+msgstr ""
+
+#: View/Groups/index.ctp:7
+msgid "Adicionar Grupo"
+msgstr ""
+
+#: View/Groups/index.ctp:38
+msgid "Tem certeza que deseja excluir o Grupo %s?"
+msgstr ""
+
+#: View/Groups/update.ctp:1
+msgid "Alterar Grupo"
+msgstr ""
+
+#: View/Layouts/default.ctp:61
+#: View/Layouts/marketplaces.ctp:67
+#: View/Layouts/metaplace.ctp:67
+msgid "Sair"
+msgstr ""
+
+#: View/Layouts/default.ctp:61
+#: View/Layouts/marketplaces.ctp:67
+#: View/Layouts/metaplace.ctp:67
+msgid "Tem certeza que deseja sair?"
+msgstr ""
+
+#: View/Layouts/default.ctp:69
+#: View/Layouts/marketplaces.ctp:75
+#: View/Layouts/metaplace.ctp:75
+msgid "Cadastre-se"
+msgstr ""
+
+#: View/Layouts/default.ctp:119
+#: View/Layouts/login.ctp:90
+#: View/Layouts/marketplaces.ctp:132
+#: View/Layouts/marketplaces_login.ctp:99
+#: View/Layouts/metaplace.ctp:132
+msgid "&copy; 2016 METAPLACE. Todos os Direitos Reservados."
+msgstr ""
+
+#: View/Layouts/login.ctp:42
+#: View/Layouts/marketplaces.ctp:44
+#: View/Layouts/marketplaces_login.ctp:44
+#: View/Layouts/metaplace.ctp:44
+msgid "Metaplace"
+msgstr ""
+
+#: View/Layouts/login.ctp:43
+#: View/Layouts/marketplaces.ctp:49
+#: View/Layouts/marketplaces_login.ctp:49
+#: View/Layouts/metaplace.ctp:49
+msgid "A plataforma de gerar plataformas"
+msgstr ""
+
+#: View/Layouts/marketplaces.ctp:44;49
+#: View/Layouts/marketplaces_login.ctp:44;49
+#: View/Layouts/metaplace.ctp:44;49
+msgid "Ir para a página principal"
+msgstr ""
+
+#: View/Main/index.ctp:5;7
+msgid "Plataforma Metaplace"
+msgstr ""
+
+#: View/Main/index.ctp:19
+msgid "Já tenho uma conta e quero fazer login"
+msgstr ""
+
+#: View/Main/index.ctp:26
+msgid "Quero criar uma conta"
+msgstr ""
+
+#: View/Main/index.ctp:34
+msgid "Ir para minha página"
+msgstr ""
+
+#: View/Main/index.ctp:42
+msgid "Ver marketplaces publicados"
+msgstr ""
+
+#: View/Main/marketplaces.ctp:1
+msgid "Marketplaces"
+msgstr ""
+
+#: View/Main/metamarketplaces.ctp:1
+msgid "MetaMarketplaces existentes"
+msgstr ""
+
+#: View/Main/metamarketplaces.ctp:6
+msgid "Não existem MetaMarketplaces cadastrados."
+msgstr ""
+
+#: View/Marketplaces/consumer_login.ctp:4
+#: View/Marketplaces/provider_login.ctp:4
+msgid "Acesso"
+msgstr ""
+
+#: View/Marketplaces/consumer_login.ctp:12
+#: View/Marketplaces/provider_login.ctp:12
+#: View/Users/login.ctp:11
+msgid "Acessar"
+msgstr ""
+
+#: View/Marketplaces/detail.ctp:31
+msgid "Consultar meu perfil "
+msgstr ""
+
+#: View/Marketplaces/detail.ctp:46
+msgid "Consultar pedidos e solicitar serviços"
+msgstr ""
+
+#: View/Marketplaces/detail.ctp:61
+msgid "Solicitar serviços"
+msgstr ""
+
+#: View/Marketplaces/detail.ctp:68
+msgid "Oferecer serviços"
+msgstr ""
+
+#: View/Marketplaces/detail.ctp:78
+msgid "Sobre o Marketplace \"%s\""
+msgstr ""
+
+#: View/Marketplaces/detail.ctp:82
+msgid "Serviços oferecidos"
+msgstr ""
+
+#: View/Marketplaces/detail.ctp:101
+msgid "Não existem serviços disponíveis nesse mercado"
+msgstr ""
+
+#: View/Marketplaces/identify_consumer.ctp:6
+#: View/Marketplaces/identify_provider.ctp:6
+msgid "Fazer login"
+msgstr ""
+
+#: View/Marketplaces/identify_consumer.ctp:10
+#: View/Marketplaces/identify_provider.ctp:10
+msgid "Se você já tem uma conta, por favor faça seu login."
+msgstr ""
+
+#: View/Marketplaces/identify_consumer.ctp:15
+#: View/Marketplaces/identify_provider.ctp:15
+msgid "Criar conta"
+msgstr ""
+
+#: View/Marketplaces/identify_consumer.ctp:19
+#: View/Marketplaces/identify_provider.ctp:19
+msgid "Ou então, crie uma conta."
+msgstr ""
+
+#: View/Marketplaces/inform_consumer_identification.ctp:8
+msgid "Para poder contratar serviços em \"%s\", por favor informe seu CPF ou CNPJ."
+msgstr ""
+
+#: View/Marketplaces/inform_provider_identification.ctp:8
+msgid "Para poder oferecer serviços em \"%s\", por favor informe seu CPF ou CNPJ."
+msgstr ""
+
+#: View/Marketplaces/register_consumer.ctp:7
+msgid "Cadastre-se para poder contratar serviços"
+msgstr ""
+
+#: View/Marketplaces/register_provider.ctp:8
+msgid "Cadastre-se para oferecer serviços."
+msgstr ""
+
+#: View/MetaConsumers/create.ctp:10
+#: View/MetaConsumers/update.ctp:10
+#: View/MetaProviders/create.ctp:10
+#: View/MetaProviders/update.ctp:10
+msgid "Modo de Pagamento:"
+msgstr ""
+
+#: View/MetaConsumers/detail.ctp:1
+msgid "Resumo do MetaConsumer"
+msgstr ""
+
+#: View/MetaConsumers/detail.ctp:4
+msgid "Editar MetaConsumer"
+msgstr ""
+
+#: View/MetaConsumers/detail.ctp:7
+#: View/MetaProviders/detail.ctp:7
+msgid "MetaMarketplace: "
+msgstr ""
+
+#: View/MetaConsumers/index.ctp:1
+msgid "MetaConsumers"
+msgstr ""
+
+#: View/MetaConsumers/index.ctp:31
+msgid "Tem certeza que deseja excluir o MetaConsumer %s?"
+msgstr ""
+
+#: View/MetaConsumers/update.ctp:1
+msgid "Alterar MetaConsumer"
+msgstr ""
+
+#: View/MetaMarketplaces/create.ctp:1
+msgid "Adicionar MetaMarketplace"
+msgstr ""
+
+#: View/MetaMarketplaces/create.ctp:10
+#: View/MetaMarketplaces/detail.ctp:39
+#: View/MetaMarketplaces/index.ctp:15
+msgid "Propósito:"
+msgstr ""
+
+#: View/MetaMarketplaces/create.ctp:11
+msgid "Descriçao:"
+msgstr ""
+
+#: View/MetaMarketplaces/create.ctp:12
+msgid "Imagem da logo:"
+msgstr ""
+
+#: View/MetaMarketplaces/create.ctp:13
+msgid "Imagem da capa:"
+msgstr ""
+
+#: View/MetaMarketplaces/detail.ctp:4
+msgid "Editar"
+msgstr ""
+
+#: View/MetaMarketplaces/detail.ctp:7
+msgid "Editar o MetaMarketplace"
+msgstr ""
+
+#: View/MetaMarketplaces/detail.ctp:19
+msgid "Logo atual"
+msgstr ""
+
+#: View/MetaMarketplaces/detail.ctp:25
+msgid "Resumo do Marketplace \"%s\""
+msgstr ""
+
+#: View/MetaMarketplaces/detail.ctp:33
+msgid "Imagem principal atual"
+msgstr ""
+
+#: View/MetaMarketplaces/detail.ctp:41
+#: View/ServiceTypes/create.ctp:9
+#: View/ServiceTypes/index.ctp:15
+#: View/ServiceTypes/update.ctp:10
+msgid "Descrição:"
+msgstr ""
+
+#: View/MetaMarketplaces/detail.ctp:51
+msgid "Publicar Marketplace"
+msgstr ""
+
+#: View/MetaMarketplaces/detail.ctp:61
+msgid "Esse MetaMarketplace já foi publicado."
+msgstr ""
+
+#: View/MetaMarketplaces/detail.ctp:67
+msgid "Esse MetaMarketplace não pode ser publicado."
+msgstr ""
+
+#: View/MetaMarketplaces/detail.ctp:76
+#: View/MetaProviders/detail.ctp:16
+msgid "Tipos de serviço"
+msgstr ""
+
+#: View/MetaMarketplaces/detail.ctp:83
+msgid "Criar ServiceType"
+msgstr ""
+
+#: View/MetaMarketplaces/detail.ctp:113;155;205
+msgid "Tem certeza que deseja excluir o Tipo de Serviço %s?"
+msgstr ""
+
+#: View/MetaMarketplaces/detail.ctp:129
+msgid "MetaProvider"
+msgstr ""
+
+#: View/MetaMarketplaces/detail.ctp:168
+msgid "Criar MetaProvider"
+msgstr ""
+
+#: View/MetaMarketplaces/detail.ctp:179
+msgid "MetaConsumer"
+msgstr ""
+
+#: View/MetaMarketplaces/detail.ctp:218
+msgid "Criar MetaConsumer"
+msgstr ""
+
+#: View/MetaMarketplaces/index.ctp:35
+msgid "Tem certeza que deseja excluir o Marketplace %s?"
+msgstr ""
+
+#: View/MetaMarketplaces/publish.ctp:1
+msgid "Publicar Marketplace \"%s\""
+msgstr ""
+
+#: View/MetaMarketplaces/publish.ctp:21
+#: View/ServiceTypes/create.ctp:2
+#: View/ServiceTypes/update.ctp:2
+msgid "Voltar para "
+msgstr ""
+
+#: View/MetaMarketplaces/update.ctp:20
+msgid "Alterar imagem do logo"
+msgstr ""
+
+#: View/MetaMarketplaces/update.ctp:22
+msgid "Enviar imagem do logo"
+msgstr ""
+
+#: View/MetaMarketplaces/update.ctp:34
+msgid "Alterar imagem da capa"
+msgstr ""
+
+#: View/MetaMarketplaces/update.ctp:36
+msgid "Enviar imagem da capa"
+msgstr ""
+
+#: View/MetaProviders/create.ctp:1
+msgid "Adicionar MetaProvider"
+msgstr ""
+
+#: View/MetaProviders/create.ctp:10
+msgid "Escolha um modo de pagamento"
+msgstr ""
+
+#: View/MetaProviders/detail.ctp:1
+msgid "Resumo do MetaProvider"
+msgstr ""
+
+#: View/MetaProviders/detail.ctp:4
+msgid "Editar MetaProvider"
+msgstr ""
+
+#: View/MetaProviders/detail.ctp:41
+msgid "MetaAttributes"
+msgstr ""
+
+#: View/MetaProviders/index.ctp:1
+msgid "MetaProviders"
+msgstr ""
+
+#: View/MetaProviders/index.ctp:31
+msgid "Tem certeza que deseja excluir o MetaProvider %s?"
+msgstr ""
+
+#: View/MetaProviders/update.ctp:1
+msgid "Alterar MetaProvider"
+msgstr ""
+
+#: View/PaymentMethods/create.ctp:1
+msgid "Adicionar Modo de Pagamento"
+msgstr ""
+
+#: View/PaymentMethods/index.ctp:1
+msgid "Modo de Pagamentos"
+msgstr ""
+
+#: View/PaymentMethods/index.ctp:6
+msgid "Adicionar Modo de Pagamento "
+msgstr ""
+
+#: View/PaymentMethods/index.ctp:33
+msgid "Tem certeza que deseja excluir o Modo de Pagamento %s?"
+msgstr ""
+
+#: View/PaymentMethods/update.ctp:4
+msgid "Alterar Modo de Pagamento"
+msgstr ""
+
+#: View/Providers/update_service_types.ctp:7
+msgid "Escolha os serviços que você quer oferecer."
+msgstr ""
+
+#: View/Providers/update_weekdays.ctp:6
+msgid "Informe a disponibilidade para %s"
+msgstr ""
+
+#: View/Providers/update_weekdays.ctp:14
+msgid "Que dias da semana?"
+msgstr ""
+
+#: View/ServiceTypes/create.ctp:1
+msgid "Adicionar Tipo de Serviço"
+msgstr ""
+
+#: View/ServiceTypes/create.ctp:11
+#: View/ServiceTypes/update.ctp:11
+msgid "Critérios"
+msgstr ""
+
+#: View/ServiceTypes/create.ctp:16
+#: View/ServiceTypes/update.ctp:16
+msgid "Disponibilidade online/offline"
+msgstr ""
+
+#: View/ServiceTypes/create.ctp:23
+#: View/ServiceTypes/update.ctp:23
+msgid "Disponibilidade por dias da semana"
+msgstr ""
+
+#: View/ServiceTypes/create.ctp:30
+#: View/ServiceTypes/update.ctp:30
+msgid "Disponibilidade para data agendada"
+msgstr ""
+
+#: View/ServiceTypes/index.ctp:1
+msgid "Tipos de Serviços"
+msgstr ""
+
+#: View/ServiceTypes/index.ctp:6
+msgid "Adicionar ServiceType"
+msgstr ""
+
+#: View/ServiceTypes/index.ctp:34
+msgid "Tem certeza que deseja excluir o ServiceType %s?"
+msgstr ""
+
+#: View/ServiceTypes/update.ctp:1
+msgid "Alterar Tipo de Serviço"
+msgstr ""
+
+#: View/Users/index.ctp:35
+msgid "Tem certeza que deseja excluir o Usuário %s?"
+msgstr ""
+
+#: View/Users/profile.ctp:32
+msgid "Página do Usuário: %s"
+msgstr ""
+
+#: Model/Consumer.php:validation for field active;validation for field removed
+#: Model/Curator.php:validation for field active;validation for field removed
+#: Model/Demand.php:validation for field active;validation for field removed
+#: Model/DemandSchedule.php:validation for field active;validation for field removed
+#: Model/Group.php:validation for field active;validation for field removed
+#: Model/Marketplace.php:validation for field active;validation for field removed
+#: Model/MetaConsumer.php:validation for field active;validation for field removed
+#: Model/MetaMarketplace.php:validation for field active;validation for field removed
+#: Model/MetaProvider.php:validation for field active;validation for field removed
+#: Model/PaymentMethod.php:validation for field active;validation for field removed
+#: Model/Provider.php:validation for field active;validation for field removed
+#: Model/ProviderWeekdays.php:validation for field active;validation for field removed
+#: Model/ServiceType.php:validation for field active;validation for field removed
+#: Model/User.php:validation for field active;validation for field removed
+msgid "numeric"
+msgstr ""
+
+#: Model/Consumer.php:validation for field name
+#: Model/Curator.php:validation for field name
+#: Model/Group.php:validation for field name
+#: Model/Marketplace.php:validation for field name
+#: Model/MetaConsumer.php:validation for field name
+#: Model/MetaMarketplace.php:validation for field name
+#: Model/MetaProvider.php:validation for field name
+#: Model/PaymentMethod.php:validation for field name
+#: Model/Provider.php:validation for field name
+#: Model/ServiceType.php:validation for field name
+#: Model/User.php:validation for field name
+msgid "Favor informar o nome"
+msgstr ""
+
+#: Model/DemandSchedule.php:validation for field schedule
+msgid "You must provide a schedule in YYYY-MM-DD format."
+msgstr ""
+
+#: Model/Group.php:validation for field alias
+msgid "Favor informar um alias"
+msgstr ""
+
+#: Model/Marketplace.php:validation for field description
+#: Model/MetaMarketplace.php:validation for field description
+msgid "Favor informar um texto descrevendo o Marketplace"
+msgstr ""
+
+#: Model/MetaConsumer.php:validation for field identification
+#: Model/MetaProvider.php:validation for field identification
+msgid "Favor informar a identificação"
+msgstr ""
+
+#: Model/ProviderWeekdays.php:validation for field weekdays
+msgid "Favor informar o nome do atributo"
+msgstr ""
+
+#: Model/ServiceType.php:validation for field description
+msgid "Favor informar a descrição"
+msgstr ""
+
+#: Model/User.php:validation for field email
+msgid "Favor informar o e-mail"
+msgstr ""
+
+#: Model/User.php:validation for field email
+msgid "Favor informar um e-mail válido"
+msgstr ""
+
+#: Model/User.php:validation for field email
+msgid "Esse e-mail já consta de nossos cadastros"
+msgstr ""
+
+#: Model/User.php:validation for field recuperaremail
+msgid "Favor informar um email."
+msgstr ""
+
+#: Model/User.php:validation for field recuperaremail
+msgid "Favor informar um email válido."
+msgstr ""
+
+#: Model/User.php:validation for field confirmpassword
+msgid "Sua senha não confere"
+msgstr ""
+

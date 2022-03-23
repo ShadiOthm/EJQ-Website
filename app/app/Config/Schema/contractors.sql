@@ -1,0 +1,30 @@
+DROP TABLE IF EXISTS `contractors`;
+CREATE TABLE IF NOT EXISTS `contractors` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `created` datetime DEFAULT NULL,
+  `modified` datetime DEFAULT NULL,
+  `active` int(11) NOT NULL DEFAULT '1',
+  `removed` int(11) NOT NULL DEFAULT '0',
+  `marketplace_id` int(11) DEFAULT NULL,
+  `provider_id` int(11) DEFAULT NULL,
+  `name` varchar(256) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `slug` varchar(256) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `about` text COLLATE utf8_unicode_ci,
+  `municipality_id` int(11) DEFAULT NULL,
+  `phone` varchar(256) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `contact_name` varchar(256) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `contact_position` varchar(256) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `contact_email` varchar(256) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `contact_address` varchar(256) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `years_in_business` int(11)  unsigned DEFAULT NULL,
+  `number_of_employees` int(11)  unsigned DEFAULT NULL,
+  `business_licence` tinyint(1) DEFAULT NULL,
+  `work_safe_BC` tinyint(1) DEFAULT NULL,
+  `insurance_amount` decimal(9,2) DEFAULT NULL,
+  `insurance_provider` varchar(256) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `bbb_complaints` tinyint(1) DEFAULT NULL,
+  `bbb_observation` text COLLATE utf8_unicode_ci,
+  `licences_and_certifications` text COLLATE utf8_unicode_ci,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ;
+

@@ -1,0 +1,1 @@
+[08-Apr-2018 18:31:22 America/Sao_Paulo] PHP Fatal error:  Call to a member function getTimeStamp() on boolean in /home1/easyjobq/app/app/Controller/InvoicesController.php on line 873
