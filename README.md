@@ -31,3 +31,7 @@ This project includes:
 10# Homeowner’s comments should not appear on bid. 
 
 11# Admin and Estimator can reschedule visits. 
+
+
+Composer
+Composer is an application-level package manager for the PHP programming language that provides a standard format for managing dependencies of PHP software and required libraries.
